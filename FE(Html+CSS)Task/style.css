@@ -1,0 +1,147 @@
+/* styling */
+body {
+    background-color: #ecfcfc;
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 155px;
+    background-image: url('images/img.svg');
+    background-color: darkcyan;
+}
+.container{
+    width: 1110px;
+    margin: auto;
+    position: relative;
+}
+#search-bar {
+    height: auto;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box; 
+    display: flex;
+    margin-top: -30px;
+}
+::placeholder { 
+    font-family: 'Courier New', Courier, monospace;
+}
+#clear-button{
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 18px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    text-decoration: underline;
+}
+#dark-mode{
+    position: absolute;
+    right: 0;
+    margin-top: -100px;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    cursor: pointer;  
+}
+#dark-mode img{
+    height:90%;
+    vertical-align:middle;
+}
+.Job{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box; 
+    display: flex;
+    margin-top: 40px;  
+}
+.circular-img{
+    width: 100px;
+    height: auto;
+}
+.Job-company{
+    color: #40A5A4;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 23px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.new{
+  
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+    background-color: #40A5A4 ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+ 
+}
+.feature{
+  
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+    background-color: black ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.Job-title {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 23px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.Job-type{
+    color: grey;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block; 
+    margin-right: 10px;
+}
+.Job-feature{
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    background-color: #ecfcfc ; 
+    border: none;
+    color:#40A5A4;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.features{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none; /* Remove default list bullet points */
+    padding: 0;
+    margin-left: 29px;
+}
